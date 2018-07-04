@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 project(PixelAnnotationTool)
 
+set (CMAKE_CXX_STANDARD 11)
 
 
 set(QT5_DIR "~/Qt5.9.1/5.9.1/msvc2015_64/lib/cmake" CACHE STRING "Additional search paths for QT5")

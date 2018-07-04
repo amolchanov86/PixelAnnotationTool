@@ -215,6 +215,9 @@
            <property name="minimum">
             <number>0</number>
            </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
            <property name="singleStep">
             <number>5</number>
            </property>
@@ -238,7 +241,7 @@
        <item>
         <widget class="QCheckBox" name="checkbox_manuel_mask">
          <property name="text">
-          <string>Manuel Mask</string>
+          <string>Manual Mask</string>
          </property>
          <property name="checkable">
           <bool>true</bool>
